@@ -67,7 +67,7 @@ const Todo = () => {
                 <button onClick={addTodo} className='p-1 rounded text-lg bg-blue-600 text-white'>Add Todo</button>
                 
             </div>
-            <div className='space-y-5 w-1/2'>
+            <div className='space-y-5 w-full md:w-1/2'>
                 {
                     todos.map(todo => 
                         <div key={todo.id} className='flex w-full justify-between items-center bg-gray-900 space-x-5 p-3'>
